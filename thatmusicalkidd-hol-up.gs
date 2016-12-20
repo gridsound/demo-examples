@@ -1,6 +1,6 @@
 {
 	"id": "c6c64ec6-e1b3-45fe-83c8-83612204792d",
-	"name": "Sampulator - Hol Up",
+	"name": "ThatMusicalKidd - Hol Up",
 	"bpm": 143,
 	"duration": 6.973955726812871,
 	"files": [
