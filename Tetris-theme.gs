@@ -1,6 +1,6 @@
 {
 	"id": "e2a34b19-27e3-4d2e-bd21-695b97dbc7c8",
-	"bpm": 120,
+	"bpm": 149,
 	"stepsPerBeat": 4,
 	"beatsPerMeasure": 4,
 	"name": "Tetris theme",
@@ -29,21 +29,21 @@
 		"i2b": { "order": 20, "toggle": true, "name": "" }
 	},
 	"patterns": {
-		"i2d": { "name": "main melody", "type": "keys", "keys": "i2c", "duration": 16 },
-		"i5a": { "name": "bass", "type": "keys", "keys": "i59", "duration": 32 },
-		"i8b": { "name": "pat (3)", "type": "keys", "keys": "i8a", "duration": 16 },
-		"id4": { "name": "pat (5)", "type": "keys", "keys": "id3", "duration": 32 },
-		"if7": { "name": "pat (6)", "type": "keys", "keys": "if6", "duration": 32 },
-		"i175": { "name": "pat (8)", "type": "keys", "keys": "i174", "duration": 40 },
-		"i1f8": { "name": "pat (9)", "type": "keys", "keys": "i1f7", "duration": 8 },
-		"i229": { "type": "keys", "keys": "i214", "name": "pat (10)", "duration": 8 },
-		"i236": { "name": "pat (12)", "type": "keys", "keys": "i235", "duration": 48 },
-		"i2d1": { "name": "pat (13)", "type": "keys", "keys": "i2d0", "duration": 4 },
-		"i2eb": { "type": "keys", "keys": "i2e0", "name": "pat (14)", "duration": 4 },
-		"i2ef": { "name": "pat (15)", "type": "keys", "keys": "i2ee", "duration": 4 },
-		"i307": { "type": "keys", "keys": "i2fc", "name": "pat (16)", "duration": 4 },
-		"i315": { "type": "keys", "keys": "i30a", "name": "pat (17)", "duration": 4 },
-		"i325": { "type": "keys", "keys": "i31a", "name": "pat (18)", "duration": 4 }
+		"i2d": { "name": "main melody", "type": "keys", "keys": "i2c", "duration": 16, "synth": "i33b" },
+		"i5a": { "name": "bass", "type": "keys", "keys": "i59", "duration": 32, "synth": "i33b" },
+		"i8b": { "name": "pat (3)", "type": "keys", "keys": "i8a", "duration": 16, "synth": "i33b" },
+		"id4": { "name": "Dragon", "type": "keys", "keys": "id3", "duration": 32, "synth": "i33b" },
+		"if7": { "name": "Long rails", "type": "keys", "keys": "if6", "duration": 32, "synth": "i33b" },
+		"i175": { "name": "Fog", "type": "keys", "keys": "i174", "duration": 40, "synth": "i33b" },
+		"i1f8": { "name": "Playing around", "type": "keys", "keys": "i1f7", "duration": 8, "synth": "i33b" },
+		"i229": { "type": "keys", "keys": "i214", "name": "Falling", "duration": 8, "synth": "i33b" },
+		"i236": { "name": "Andromeda", "type": "keys", "keys": "i235", "duration": 48, "synth": "i33b" },
+		"i2d1": { "name": "Random", "type": "keys", "keys": "i2d0", "duration": 4, "synth": "i33b" },
+		"i2eb": { "type": "keys", "keys": "i2e0", "name": "Random up", "duration": 4, "synth": "i33b" },
+		"i2ef": { "name": "Random middle", "type": "keys", "keys": "i2ee", "duration": 4, "synth": "i33b" },
+		"i307": { "type": "keys", "keys": "i2fc", "name": "Random robot", "duration": 4, "synth": "i33b" },
+		"i315": { "type": "keys", "keys": "i30a", "name": "Robot", "duration": 4, "synth": "i33b" },
+		"i325": { "type": "keys", "keys": "i31a", "name": "Win", "duration": 4, "synth": "i33b" }
 	},
 	"blocks": {
 		"i58": { "pattern": "i2d", "track": "i21", "when": 0, "offset": 0, "duration": 15, "durationEdited": true },
@@ -550,7 +550,6 @@
 			"i255": { "key": "a4", "when": 11, "offset": 0, "duration": 0.5 },
 			"i256": { "key": "a4", "when": 11.5, "offset": 0, "duration": 0.5 },
 			"i257": { "key": "f#4", "when": 11.5, "offset": 0, "duration": 0.5 },
-			"i258": { "key": "d4", "when": 12, "offset": 0, "duration": 0.5 },
 			"i259": { "key": "b4", "when": 12, "offset": 0, "duration": 0.5 },
 			"i25a": { "key": "e4", "when": 15, "offset": 0, "duration": 0.5 },
 			"i25b": { "key": "c#5", "when": 15, "offset": 0, "duration": 0.5 },
@@ -664,7 +663,8 @@
 			"i2cb": { "key": "a#3", "when": 39.5, "offset": 0, "duration": 0.5 },
 			"i2cc": { "key": "g3", "when": 39.5, "offset": 0, "duration": 0.5 },
 			"i2ce": { "key": "d#4", "when": 47, "offset": 0, "duration": 0.5 },
-			"i2cf": { "key": "c4", "when": 47, "offset": 0, "duration": 0.5 }
+			"i2cf": { "key": "c4", "when": 47, "offset": 0, "duration": 0.5 },
+			"i342": { "key": "g4", "when": 12, "offset": 0, "duration": 0.5 }
 		},
 		"i2d0": {
 			"i2d3": { "key": "g3", "when": 0, "offset": 0, "duration": 0.5 },
@@ -729,16 +729,25 @@
 		"i31a": {
 			"i31b": { "key": "d3", "when": 0, "offset": 0, "duration": 0.5, "selected": false },
 			"i31c": { "key": "d4", "when": 0.5, "offset": 0, "duration": 0.25, "durationEdited": true, "selected": false },
+			"i323": { "key": "e3", "when": 3, "offset": 0, "duration": 0.5, "durationEdited": true, "selected": false },
+			"i324": { "key": "d#4", "when": 3.5, "offset": 0, "duration": 0.5, "selected": false },
+			"i31f": { "key": "d4", "when": 1.5, "offset": 0, "duration": 0.5, "selected": false },
+			"i321": { "key": "d4", "when": 2.5, "offset": 0, "duration": 0.25, "durationEdited": true, "selected": false },
 			"i31d": { "key": "a3", "when": 0.75, "offset": 0, "duration": 0.25, "selected": false },
 			"i31e": { "key": "d3", "when": 1, "offset": 0, "duration": 0.5, "durationEdited": true, "selected": false },
-			"i31f": { "key": "d4", "when": 1.5, "offset": 0, "duration": 0.5, "selected": false },
 			"i320": { "key": "d3", "when": 2, "offset": 0, "duration": 0.5, "selected": false },
-			"i321": { "key": "d4", "when": 2.5, "offset": 0, "duration": 0.25, "durationEdited": true, "selected": false },
-			"i322": { "key": "a3", "when": 2.75, "offset": 0, "duration": 0.25, "selected": false },
-			"i323": { "key": "e3", "when": 3, "offset": 0, "duration": 0.5, "durationEdited": true, "selected": false },
-			"i324": { "key": "d#4", "when": 3.5, "offset": 0, "duration": 0.5, "selected": false }
+			"i322": { "key": "a3", "when": 2.75, "offset": 0, "duration": 0.25, "selected": false }
 		}
 	},
-	"savedAt": 1508677745,
-	"patternOpened": "i325"
+	"savedAt": 1512770821,
+	"patternOpened": "i325",
+	"synths": {
+		"i33b": {
+			"oscillators": {
+				"8eb5b077-bf2d-4d1c-bd3e-6b3eefec1e06": { "type": "sine", "detune": -15, "gain": 1, "pan": 0 },
+				"ee3f0a6e-eff4-431d-ab3d-b622bec10953": { "type": "square", "detune": 0, "gain": 0.72, "pan": 0 }
+			}
+		}
+	},
+	"synthOpened": "i33b"
 }
