@@ -26,7 +26,7 @@
 			"name": "synth (2)",
 			"oscillators": {
 				"i29": { "order": 0, "type": "sine", "detune": 20, "pan": 0, "gain": 0.43 },
-				"b465c9ff-a448-43da-b5b8-d1da008877b0": { "type": "sawtooth", "detune": 0, "gain": 0.28, "pan": 0 }
+				"i9d": { "order": 1, "type": "sawtooth", "detune": 0, "gain": 0.28, "pan": 0 }
 			}
 		},
 		"i37": {
@@ -39,8 +39,8 @@
 			"name": "synth (4)",
 			"oscillators": {
 				"i61": { "order": 0, "type": "square", "detune": 0, "pan": 0, "gain": 0.39 },
-				"139bc321-199b-4407-bcad-01f69617514b": { "type": "square", "detune": -10, "gain": 0.39, "pan": -1 },
-				"8711f8dd-6594-40c8-bd6c-09882e46112e": { "type": "square", "detune": 10, "gain": 0.39, "pan": 1 }
+				"i9e": { "order": 1, "type": "square", "detune": -10, "gain": 0.39, "pan": -1 },
+				"i9f": { "order": 2, "type": "square", "detune": 10, "gain": 0.39, "pan": 1 }
 			}
 		}
 	},
@@ -163,7 +163,7 @@
 			"i9c": { "key": "g6", "when": 10.5, "offset": 0, "duration": 0.5 }
 		}
 	},
-	"synthOpened": "i37",
-	"savedAt": 1513203186,
-	"patternOpened": "i82"
+	"synthOpened": "i28",
+	"savedAt": 1516124140,
+	"patternOpened": "i2b"
 }
