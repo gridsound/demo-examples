@@ -29,13 +29,13 @@
 		"i14": { "order": 20, "toggle": true, "name": "" }
 	},
 	"patterns": {
-		"i16": { "name": "pat", "type": "keys", "keys": "i15", "duration": 3 },
-		"i20": { "name": "pat (2)", "type": "keys", "keys": "i1f", "duration": 3 },
-		"i2b": { "name": "pat (3)", "type": "keys", "keys": "i2a", "duration": 3 },
-		"i32": { "name": "pat (4)", "type": "keys", "keys": "i31", "duration": 3 },
-		"i3c": { "name": "pat (5)", "type": "keys", "keys": "i3b", "duration": 3 },
-		"i41": { "name": "pat (6)", "type": "keys", "keys": "i40", "duration": 3 },
-		"i4b": { "name": "pat (7)", "type": "keys", "keys": "i4a", "duration": 3 }
+		"i16": { "name": "pat", "type": "keys", "keys": "i15", "duration": 3, "synth": "i51" },
+		"i20": { "name": "pat (2)", "type": "keys", "keys": "i1f", "duration": 3, "synth": "i51" },
+		"i2b": { "name": "pat (3)", "type": "keys", "keys": "i2a", "duration": 3, "synth": "i51" },
+		"i32": { "name": "pat (4)", "type": "keys", "keys": "i31", "duration": 3, "synth": "i51" },
+		"i3c": { "name": "pat (5)", "type": "keys", "keys": "i3b", "duration": 3, "synth": "i51" },
+		"i41": { "name": "pat (6)", "type": "keys", "keys": "i40", "duration": 3, "synth": "i51" },
+		"i4b": { "name": "pat (7)", "type": "keys", "keys": "i4a", "duration": 3, "synth": "i51" }
 	},
 	"blocks": {
 		"i1b": { "pattern": "i16", "track": "ia", "when": 0, "offset": 0, "duration": 3, "selected": false },
@@ -67,39 +67,48 @@
 	},
 	"keys": {
 		"i15": {
-			"i17": { "key": "g5", "when": 0, "offset": 0, "duration": 1 },
-			"i18": { "key": "c5", "when": 1, "offset": 0, "duration": 1 },
-			"i19": { "key": "e5", "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i1a": { "key": "f5", "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true }
+			"i17": { "key": 67, "when": 0, "offset": 0, "duration": 1 },
+			"i18": { "key": 60, "when": 1, "offset": 0, "duration": 1 },
+			"i19": { "key": 64, "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i1a": { "key": 65, "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true }
 		},
 		"i1f": {
-			"i21": { "key": "g5", "when": 0, "offset": 0, "duration": 1 },
-			"i22": { "key": "c5", "when": 1, "offset": 0, "duration": 1 },
-			"i23": { "key": "d#5", "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i24": { "key": "f5", "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true }
+			"i21": { "key": 67, "when": 0, "offset": 0, "duration": 1 },
+			"i22": { "key": 60, "when": 1, "offset": 0, "duration": 1 },
+			"i23": { "key": 63, "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i24": { "key": 65, "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true }
 		},
 		"i2a": {
-			"i2c": { "key": "g5", "when": 0, "offset": 0, "duration": 3, "durationEdited": true }
+			"i2c": { "key": 67, "when": 0, "offset": 0, "duration": 3, "durationEdited": true }
 		},
 		"i31": {
-			"i33": { "key": "d6", "when": 0, "offset": 0, "duration": 1 },
-			"i34": { "key": "g5", "when": 1, "offset": 0, "duration": 1 },
-			"i35": { "key": "a#5", "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i36": { "key": "c6", "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true }
+			"i33": { "key": 74, "when": 0, "offset": 0, "duration": 1 },
+			"i34": { "key": 67, "when": 1, "offset": 0, "duration": 1 },
+			"i35": { "key": 70, "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i36": { "key": 72, "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true }
 		},
 		"i3b": {
-			"i3d": { "key": "d5", "when": 0, "offset": 0, "duration": 3, "durationEdited": true }
+			"i3d": { "key": 62, "when": 0, "offset": 0, "duration": 3, "durationEdited": true }
 		},
 		"i40": {
-			"i42": { "key": "f5", "when": 1, "offset": 0, "duration": 1 },
-			"i43": { "key": "g#5", "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i44": { "key": "a#5", "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i45": { "key": "c6", "when": 0, "offset": 0, "duration": 1 }
+			"i42": { "key": 65, "when": 1, "offset": 0, "duration": 1 },
+			"i43": { "key": 68, "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i44": { "key": 70, "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i45": { "key": 72, "when": 0, "offset": 0, "duration": 1 }
 		},
 		"i4a": {
-			"i4c": { "key": "c6", "when": 0, "offset": 0, "duration": 3, "durationEdited": true }
+			"i4c": { "key": 72, "when": 0, "offset": 0, "duration": 3, "durationEdited": true }
 		}
 	},
 	"patternOpened": "i4b",
-	"savedAt": 1507853418
+	"savedAt": 1519418484,
+	"synths": {
+		"i51": {
+			"name": "synth",
+			"oscillators": {
+				"i52": { "type": "sine", "detune": 0, "pan": 0, "gain": 1, "order": 1 }
+			}
+		}
+	},
+	"synthOpened": "i51"
 }
