@@ -26,7 +26,7 @@
 			"name": "synth (2)",
 			"oscillators": {
 				"i29": { "order": 0, "type": "sine", "detune": 20, "pan": 0, "gain": 0.43 },
-				"i9d": { "order": 1, "type": "sawtooth", "detune": 0, "gain": 0.28, "pan": 0 }
+				"ia0": { "order": 1, "type": "sawtooth", "detune": 0, "gain": 0.28, "pan": 0 }
 			}
 		},
 		"i37": {
@@ -39,8 +39,8 @@
 			"name": "synth (4)",
 			"oscillators": {
 				"i61": { "order": 0, "type": "square", "detune": 0, "pan": 0, "gain": 0.39 },
-				"i9e": { "order": 1, "type": "square", "detune": -10, "gain": 0.39, "pan": -1 },
-				"i9f": { "order": 2, "type": "square", "detune": 10, "gain": 0.39, "pan": 1 }
+				"ia1": { "order": 1, "type": "square", "detune": -10, "gain": 0.39, "pan": -1 },
+				"ia2": { "order": 2, "type": "square", "detune": 10, "gain": 0.39, "pan": 1 }
 			}
 		}
 	},
@@ -100,70 +100,70 @@
 	},
 	"keys": {
 		"i2": {
-			"i1c": { "key": "a3", "when": 0, "offset": 0, "duration": 0.25, "durationEdited": true },
-			"i1e": { "key": "a3", "when": 1, "offset": 0, "duration": 0.25 },
-			"i1f": { "key": "a2", "when": 1.5, "offset": 0, "duration": 0.25 },
-			"i20": { "key": "a3", "when": 2, "offset": 0, "duration": 0.25 },
-			"i22": { "key": "a3", "when": 2.75, "offset": 0, "duration": 0.25 },
-			"i25": { "key": "a2", "when": 3.5, "offset": 0, "duration": 0.25 },
-			"i26": { "key": "a3", "when": 3.25, "offset": 0, "duration": 0.25 }
+			"i1c": { "key": 45, "when": 0, "offset": 0, "duration": 0.25, "durationEdited": true },
+			"i1e": { "key": 45, "when": 1, "offset": 0, "duration": 0.25 },
+			"i1f": { "key": 33, "when": 1.5, "offset": 0, "duration": 0.25 },
+			"i20": { "key": 45, "when": 2, "offset": 0, "duration": 0.25 },
+			"i22": { "key": 45, "when": 2.75, "offset": 0, "duration": 0.25 },
+			"i25": { "key": 33, "when": 3.5, "offset": 0, "duration": 0.25 },
+			"i26": { "key": 45, "when": 3.25, "offset": 0, "duration": 0.25 }
 		},
 		"i2a": {
-			"i2c": { "key": "a3", "when": 4, "offset": 0, "duration": 4, "durationEdited": true },
-			"i2d": { "key": "f3", "when": 0, "offset": 0, "duration": 2, "durationEdited": true },
-			"i2e": { "key": "g3", "when": 2, "offset": 0, "duration": 2 },
-			"i2f": { "key": "c4", "when": 4, "offset": 0, "duration": 4, "durationEdited": true },
-			"i30": { "key": "e4", "when": 4, "offset": 0, "duration": 4 },
-			"i31": { "key": "a3", "when": 0, "offset": 0, "duration": 2, "durationEdited": true },
-			"i32": { "key": "c4", "when": 0, "offset": 0, "duration": 2 },
-			"i33": { "key": "b3", "when": 2, "offset": 0, "duration": 2 },
-			"i34": { "key": "d4", "when": 2, "offset": 0, "duration": 2 }
+			"i2c": { "key": 45, "when": 4, "offset": 0, "duration": 4, "durationEdited": true },
+			"i2d": { "key": 41, "when": 0, "offset": 0, "duration": 2, "durationEdited": true },
+			"i2e": { "key": 43, "when": 2, "offset": 0, "duration": 2 },
+			"i2f": { "key": 48, "when": 4, "offset": 0, "duration": 4, "durationEdited": true },
+			"i30": { "key": 52, "when": 4, "offset": 0, "duration": 4 },
+			"i31": { "key": 45, "when": 0, "offset": 0, "duration": 2, "durationEdited": true },
+			"i32": { "key": 48, "when": 0, "offset": 0, "duration": 2 },
+			"i33": { "key": 47, "when": 2, "offset": 0, "duration": 2 },
+			"i34": { "key": 50, "when": 2, "offset": 0, "duration": 2 }
 		},
 		"i39": {
-			"i3b": { "key": "f4", "when": 0, "offset": 0, "duration": 1, "durationEdited": true },
-			"i3c": { "key": "c5", "when": 1, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i3d": { "key": "a4", "when": 1.5, "offset": 0, "duration": 0.5 },
-			"i3e": { "key": "g4", "when": 2, "offset": 0, "duration": 1 },
-			"i3f": { "key": "b4", "when": 3, "offset": 0, "duration": 1 },
-			"i40": { "key": "c5", "when": 4, "offset": 0, "duration": 1 },
-			"i43": { "key": "e5", "when": 5, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i45": { "key": "c5", "when": 5.5, "offset": 0, "duration": 0.5 },
-			"i46": { "key": "a4", "when": 6, "offset": 0, "duration": 0.5 },
-			"i47": { "key": "a4", "when": 7, "offset": 0, "duration": 0.5 }
+			"i3b": { "key": 53, "when": 0, "offset": 0, "duration": 1, "durationEdited": true },
+			"i3c": { "key": 60, "when": 1, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i3d": { "key": 57, "when": 1.5, "offset": 0, "duration": 0.5 },
+			"i3e": { "key": 55, "when": 2, "offset": 0, "duration": 1 },
+			"i3f": { "key": 59, "when": 3, "offset": 0, "duration": 1 },
+			"i40": { "key": 60, "when": 4, "offset": 0, "duration": 1 },
+			"i43": { "key": 64, "when": 5, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i45": { "key": 60, "when": 5.5, "offset": 0, "duration": 0.5 },
+			"i46": { "key": 57, "when": 6, "offset": 0, "duration": 0.5 },
+			"i47": { "key": 57, "when": 7, "offset": 0, "duration": 0.5 }
 		},
 		"i62": {
-			"i64": { "key": "f1", "when": 0, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i65": { "key": "f1", "when": 0.5, "offset": 0, "duration": 0.5 }
+			"i64": { "key": 17, "when": 0, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i65": { "key": 17, "when": 0.5, "offset": 0, "duration": 0.5 }
 		},
 		"i6a": {
-			"i6c": { "key": "a1", "when": 0, "offset": 0, "duration": 0.5 },
-			"i6d": { "key": "a1", "when": 0.5, "offset": 0, "duration": 0.5 }
+			"i6c": { "key": 21, "when": 0, "offset": 0, "duration": 0.5 },
+			"i6d": { "key": 21, "when": 0.5, "offset": 0, "duration": 0.5 }
 		},
 		"i81": {
-			"i85": { "key": "c6", "when": 0, "offset": 0, "duration": 1, "durationEdited": true },
-			"i86": { "key": "c6", "when": 1, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i87": { "key": "b5", "when": 1.5, "offset": 0, "duration": 0.5 },
-			"i88": { "key": "c6", "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i89": { "key": "b5", "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i8b": { "key": "b5", "when": 3.5, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i8c": { "key": "c6", "when": 4, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i8d": { "key": "e6", "when": 4.5, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i8e": { "key": "a5", "when": 5.5, "offset": 0, "duration": 1, "durationEdited": true },
-			"i8f": { "key": "c6", "when": 8, "offset": 0, "duration": 1 },
-			"i90": { "key": "c6", "when": 9, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i91": { "key": "b5", "when": 9.5, "offset": 0, "duration": 0.5 },
-			"i93": { "key": "c6", "when": 10, "offset": 0, "duration": 0.5 },
-			"i94": { "key": "b5", "when": 10.5, "offset": 0, "duration": 0.5 },
-			"i95": { "key": "e6", "when": 11.5, "offset": 0, "duration": 1.5, "durationEdited": true },
-			"i97": { "key": "a5", "when": 11.5, "offset": 0, "duration": 1.5 },
-			"i98": { "key": "e6", "when": 8, "offset": 0, "duration": 1, "durationEdited": true },
-			"i99": { "key": "e6", "when": 9, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i9a": { "key": "d6", "when": 9.5, "offset": 0, "duration": 0.5 },
-			"i9b": { "key": "e6", "when": 10, "offset": 0, "duration": 0.5 },
-			"i9c": { "key": "g6", "when": 10.5, "offset": 0, "duration": 0.5 }
+			"i85": { "key": 72, "when": 0, "offset": 0, "duration": 1, "durationEdited": true },
+			"i86": { "key": 72, "when": 1, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i87": { "key": 71, "when": 1.5, "offset": 0, "duration": 0.5 },
+			"i88": { "key": 72, "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i89": { "key": 71, "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i8b": { "key": 71, "when": 3.5, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i8c": { "key": 72, "when": 4, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i8d": { "key": 76, "when": 4.5, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i8e": { "key": 69, "when": 5.5, "offset": 0, "duration": 1, "durationEdited": true },
+			"i8f": { "key": 72, "when": 8, "offset": 0, "duration": 1 },
+			"i90": { "key": 72, "when": 9, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i91": { "key": 71, "when": 9.5, "offset": 0, "duration": 0.5 },
+			"i93": { "key": 72, "when": 10, "offset": 0, "duration": 0.5 },
+			"i94": { "key": 71, "when": 10.5, "offset": 0, "duration": 0.5 },
+			"i95": { "key": 76, "when": 11.5, "offset": 0, "duration": 1.5, "durationEdited": true },
+			"i97": { "key": 69, "when": 11.5, "offset": 0, "duration": 1.5 },
+			"i98": { "key": 76, "when": 8, "offset": 0, "duration": 1, "durationEdited": true },
+			"i99": { "key": 76, "when": 9, "offset": 0, "duration": 0.5, "durationEdited": true },
+			"i9a": { "key": 74, "when": 9.5, "offset": 0, "duration": 0.5 },
+			"i9b": { "key": 76, "when": 10, "offset": 0, "duration": 0.5 },
+			"i9c": { "key": 79, "when": 10.5, "offset": 0, "duration": 0.5 }
 		}
 	},
-	"synthOpened": "i28",
-	"savedAt": 1516124140,
-	"patternOpened": "i2b"
+	"synthOpened": "i37",
+	"savedAt": 1519418191,
+	"patternOpened": "i82"
 }
