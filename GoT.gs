@@ -6,27 +6,27 @@
 	"name": "GoT",
 	"duration": 84,
 	"tracks": {
-		"i0": { "order": 0, "toggle": true, "name": "" },
-		"i1": { "order": 1, "toggle": true, "name": "" },
-		"i2": { "order": 2, "toggle": true, "name": "" },
-		"i3": { "order": 3, "toggle": true, "name": "" },
-		"i4": { "order": 4, "toggle": true, "name": "" },
-		"i5": { "order": 5, "toggle": true, "name": "" },
-		"i6": { "order": 6, "toggle": true, "name": "" },
-		"i7": { "order": 7, "toggle": true, "name": "" },
-		"i8": { "order": 8, "toggle": true, "name": "" },
-		"i9": { "order": 9, "toggle": true, "name": "" },
-		"ia": { "order": 10, "toggle": true, "name": "" },
-		"ib": { "order": 11, "toggle": true, "name": "" },
-		"ic": { "order": 12, "toggle": true, "name": "" },
-		"id": { "order": 13, "toggle": true, "name": "" },
-		"ie": { "order": 14, "toggle": true, "name": "" },
-		"if": { "order": 15, "toggle": true, "name": "" },
-		"i10": { "order": 16, "toggle": true, "name": "" },
-		"i11": { "order": 17, "toggle": true, "name": "" },
-		"i12": { "order": 18, "toggle": true, "name": "" },
-		"i13": { "order": 19, "toggle": true, "name": "" },
-		"i14": { "order": 20, "toggle": true, "name": "" }
+		"i0": { "order": 0 },
+		"i1": { "order": 1 },
+		"i2": { "order": 2 },
+		"i3": { "order": 3 },
+		"i4": { "order": 4 },
+		"i5": { "order": 5 },
+		"i6": { "order": 6 },
+		"i7": { "order": 7 },
+		"i8": { "order": 8 },
+		"i9": { "order": 9 },
+		"ia": { "order": 10 },
+		"ib": { "order": 11 },
+		"ic": { "order": 12 },
+		"id": { "order": 13 },
+		"ie": { "order": 14 },
+		"if": { "order": 15 },
+		"i10": { "order": 16 },
+		"i11": { "order": 17 },
+		"i12": { "order": 18 },
+		"i13": { "order": 19 },
+		"i14": { "order": 20 }
 	},
 	"patterns": {
 		"i16": { "name": "pat", "type": "keys", "keys": "i15", "duration": 3, "synth": "i51" },
@@ -38,70 +38,70 @@
 		"i4b": { "name": "pat (7)", "type": "keys", "keys": "i4a", "duration": 3, "synth": "i51" }
 	},
 	"blocks": {
-		"i1b": { "pattern": "i16", "track": "ia", "when": 0, "offset": 0, "duration": 3, "selected": false },
-		"i1c": { "pattern": "i16", "track": "ia", "when": 3, "offset": 0, "duration": 3, "selected": false },
-		"i1d": { "pattern": "i16", "track": "ia", "when": 6, "offset": 0, "duration": 3, "selected": false },
-		"i1e": { "pattern": "i16", "track": "ia", "when": 9, "offset": 0, "duration": 3, "selected": false },
-		"i26": { "pattern": "i20", "track": "i0", "when": 12, "offset": 0, "duration": 3, "selected": false },
-		"i27": { "pattern": "i20", "track": "i0", "when": 15, "offset": 0, "duration": 3, "selected": false },
-		"i28": { "pattern": "i20", "track": "i0", "when": 18, "offset": 0, "duration": 3, "selected": false },
-		"i29": { "pattern": "i20", "track": "i0", "when": 21, "offset": 0, "duration": 3, "selected": false },
-		"i2d": { "pattern": "i2b", "track": "ia", "when": 24, "offset": 0, "duration": 3, "selected": false },
-		"i2e": { "pattern": "i2b", "track": "ia", "when": 27, "offset": 0, "duration": 3, "selected": false },
-		"i2f": { "pattern": "i2b", "track": "ia", "when": 30, "offset": 0, "duration": 3, "selected": false },
-		"i30": { "pattern": "i2b", "track": "ia", "when": 33, "offset": 0, "duration": 3, "selected": false },
-		"i37": { "pattern": "i32", "track": "i0", "when": 36, "offset": 0, "duration": 3, "selected": false },
-		"i38": { "pattern": "i32", "track": "i0", "when": 39, "offset": 0, "duration": 3, "selected": false },
-		"i39": { "pattern": "i32", "track": "i0", "when": 42, "offset": 0, "duration": 3, "selected": false },
-		"i3a": { "pattern": "i32", "track": "i0", "when": 45, "offset": 0, "duration": 3, "selected": false },
-		"i3e": { "pattern": "i3c", "track": "ia", "when": 48, "offset": 0, "duration": 3, "selected": false },
-		"i3f": { "pattern": "i3c", "track": "ia", "when": 51, "offset": 0, "duration": 3, "selected": false },
-		"i46": { "pattern": "i41", "track": "ia", "when": 62, "offset": 2, "duration": 1, "durationEdited": true, "selected": false },
-		"i47": { "pattern": "i41", "track": "ia", "when": 63, "offset": 0, "duration": 3, "selected": false },
-		"i48": { "pattern": "i41", "track": "ia", "when": 66, "offset": 0, "duration": 3, "selected": false },
-		"i49": { "pattern": "i41", "track": "ia", "when": 69, "offset": 0, "duration": 3, "selected": false },
-		"i4d": { "pattern": "i4b", "track": "i0", "when": 72, "offset": 0, "duration": 3, "selected": false },
-		"i4e": { "pattern": "i4b", "track": "i0", "when": 75, "offset": 0, "duration": 3, "selected": false },
-		"i4f": { "pattern": "i4b", "track": "i0", "when": 78, "offset": 0, "duration": 3, "selected": false },
-		"i50": { "pattern": "i4b", "track": "i0", "when": 81, "offset": 0, "duration": 3, "selected": false }
+		"i1b": { "pattern": "i16", "track": "i0", "when": 0, "duration": 3 },
+		"i1c": { "pattern": "i16", "track": "i0", "when": 3, "duration": 3 },
+		"i1d": { "pattern": "i16", "track": "i0", "when": 6, "duration": 3 },
+		"i1e": { "pattern": "i16", "track": "i0", "when": 9, "duration": 3 },
+		"i26": { "pattern": "i20", "track": "i1", "when": 12, "duration": 3 },
+		"i27": { "pattern": "i20", "track": "i1", "when": 15, "duration": 3 },
+		"i28": { "pattern": "i20", "track": "i1", "when": 18, "duration": 3 },
+		"i29": { "pattern": "i20", "track": "i1", "when": 21, "duration": 3 },
+		"i2d": { "pattern": "i2b", "track": "i0", "when": 24, "duration": 3 },
+		"i2e": { "pattern": "i2b", "track": "i0", "when": 27, "duration": 3 },
+		"i2f": { "pattern": "i2b", "track": "i0", "when": 30, "duration": 3 },
+		"i30": { "pattern": "i2b", "track": "i0", "when": 33, "duration": 3 },
+		"i37": { "pattern": "i32", "track": "i1", "when": 36, "duration": 3 },
+		"i38": { "pattern": "i32", "track": "i1", "when": 39, "duration": 3 },
+		"i39": { "pattern": "i32", "track": "i1", "when": 42, "duration": 3 },
+		"i3a": { "pattern": "i32", "track": "i1", "when": 45, "duration": 3 },
+		"i3e": { "pattern": "i3c", "track": "i0", "when": 48, "duration": 3 },
+		"i3f": { "pattern": "i3c", "track": "i0", "when": 51, "duration": 3 },
+		"i46": { "pattern": "i41", "track": "i0", "when": 62, "offset": 2, "duration": 1, "durationEdited": true },
+		"i47": { "pattern": "i41", "track": "i0", "when": 63, "duration": 3 },
+		"i48": { "pattern": "i41", "track": "i0", "when": 66, "duration": 3 },
+		"i49": { "pattern": "i41", "track": "i0", "when": 69, "duration": 3 },
+		"i4d": { "pattern": "i4b", "track": "i1", "when": 72, "duration": 3 },
+		"i4e": { "pattern": "i4b", "track": "i1", "when": 75, "duration": 3 },
+		"i4f": { "pattern": "i4b", "track": "i1", "when": 78, "duration": 3 },
+		"i50": { "pattern": "i4b", "track": "i1", "when": 81, "duration": 3 }
 	},
 	"keys": {
 		"i15": {
-			"i17": { "key": 67, "when": 0, "offset": 0, "duration": 1 },
-			"i18": { "key": 60, "when": 1, "offset": 0, "duration": 1 },
-			"i19": { "key": 64, "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i1a": { "key": 65, "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true }
+			"i17": { "key": 67, "when": 0, "duration": 1 },
+			"i18": { "key": 60, "when": 1, "duration": 1 },
+			"i19": { "key": 64, "when": 2, "duration": 0.5 },
+			"i1a": { "key": 65, "when": 2.5, "duration": 0.5 }
 		},
 		"i1f": {
-			"i21": { "key": 67, "when": 0, "offset": 0, "duration": 1 },
-			"i22": { "key": 60, "when": 1, "offset": 0, "duration": 1 },
-			"i23": { "key": 63, "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i24": { "key": 65, "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true }
+			"i21": { "key": 67, "when": 0, "duration": 1 },
+			"i22": { "key": 60, "when": 1, "duration": 1 },
+			"i23": { "key": 63, "when": 2, "duration": 0.5 },
+			"i24": { "key": 65, "when": 2.5, "duration": 0.5 }
 		},
 		"i2a": {
-			"i2c": { "key": 67, "when": 0, "offset": 0, "duration": 3, "durationEdited": true }
+			"i2c": { "key": 67, "when": 0, "duration": 3 }
 		},
 		"i31": {
-			"i33": { "key": 74, "when": 0, "offset": 0, "duration": 1 },
-			"i34": { "key": 67, "when": 1, "offset": 0, "duration": 1 },
-			"i35": { "key": 70, "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i36": { "key": 72, "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true }
+			"i33": { "key": 74, "when": 0, "duration": 1 },
+			"i34": { "key": 67, "when": 1, "duration": 1 },
+			"i35": { "key": 70, "when": 2, "duration": 0.5 },
+			"i36": { "key": 72, "when": 2.5, "duration": 0.5 }
 		},
 		"i3b": {
-			"i3d": { "key": 62, "when": 0, "offset": 0, "duration": 3, "durationEdited": true }
+			"i3d": { "key": 62, "when": 0, "duration": 3 }
 		},
 		"i40": {
-			"i42": { "key": 65, "when": 1, "offset": 0, "duration": 1 },
-			"i43": { "key": 68, "when": 2, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i44": { "key": 70, "when": 2.5, "offset": 0, "duration": 0.5, "durationEdited": true },
-			"i45": { "key": 72, "when": 0, "offset": 0, "duration": 1 }
+			"i42": { "key": 65, "when": 1, "duration": 1 },
+			"i43": { "key": 68, "when": 2, "duration": 0.5 },
+			"i44": { "key": 70, "when": 2.5, "duration": 0.5 },
+			"i45": { "key": 72, "when": 0, "duration": 1 }
 		},
 		"i4a": {
-			"i4c": { "key": 72, "when": 0, "offset": 0, "duration": 3, "durationEdited": true }
+			"i4c": { "key": 72, "when": 0, "duration": 3 }
 		}
 	},
 	"patternOpened": "i4b",
-	"savedAt": 1519418484,
+	"savedAt": 1532291713,
 	"synths": {
 		"i51": {
 			"name": "synth",
