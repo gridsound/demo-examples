@@ -6,19 +6,19 @@
 	"name": "Still D.R.E.",
 	"duration": 12,
 	"patterns": {
-		"i1": { "name": "pat", "type": "keys", "keys": "i2", "synth": "i0", "duration": 8 },
-		"i1a": { "name": "pat (2)", "type": "keys", "keys": "i19", "synth": "i1b", "duration": 8 }
+		"i1": { "name": "piano", "type": "keys", "keys": "i2", "synth": "i0", "duration": 8 },
+		"i1a": { "name": "bass", "type": "keys", "keys": "i19", "synth": "i1b", "duration": 8 }
 	},
 	"synths": {
 		"i0": {
-			"name": "synth",
+			"name": "piano",
 			"oscillators": {
 				"i18": { "order": 0, "type": "square", "detune": 10, "pan": -0.3, "gain": 0.12 },
 				"i19": { "type": "brass2", "gain": 0.57, "pan": 0.06, "detune": 0, "order": 1 }
 			}
 		},
 		"i1b": {
-			"name": "synth (2)",
+			"name": "bass",
 			"oscillators": {
 				"i1c": { "order": 0, "type": "bass3", "detune": 0, "pan": 0, "gain": 0.89 },
 				"i1d": { "type": "brass2", "gain": 0.47, "pan": 0, "detune": 0, "order": 1 }
@@ -27,8 +27,8 @@
 	},
 	"tracks": {
 		"i3": { "order": 0 },
-		"i4": { "order": 1 },
-		"i5": { "order": 2 },
+		"i4": { "order": 1, "name": "piano" },
+		"i5": { "order": 2, "name": "bass" },
 		"i6": { "order": 3 },
 		"i7": { "order": 4 },
 		"i8": { "order": 5 },
@@ -115,9 +115,9 @@
 			"7": { "key": 40, "pan": 0, "gain": 0.55, "duration": 1, "when": 7 }
 		}
 	},
-	"synthOpened": "i1b",
-	"patternOpened": "i1a",
-	"savedAt": 1534018098,
+	"synthOpened": "i0",
+	"patternOpened": "i1",
+	"savedAt": 1534018242,
 	"loopA": 4,
 	"loopB": 12
 }
