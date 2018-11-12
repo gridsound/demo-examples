@@ -6,9 +6,10 @@
 	"name": "bassBeat",
 	"duration": 20,
 	"patterns": {
-		"i1": { "name": "Bass", "type": "keys", "keys": "i2", "synth": "i0", "duration": 4 },
+		"1": { "name": "bass cut", "type": "keys", "keys": "1", "synth": "i0", "duration": 4 },
+		"i1": { "name": "bass", "type": "keys", "keys": "i2", "synth": "i0", "duration": 4 },
 		"i26": { "name": "melody", "type": "keys", "keys": "i25", "synth": "i23", "duration": 4 },
-		"i35": { "name": "background tiny noise", "type": "keys", "keys": "i34", "synth": "i32", "duration": 4 },
+		"i35": { "name": "tiny noise", "type": "keys", "keys": "i34", "synth": "i32", "duration": 4 },
 		"i4d": { "name": "melody__", "type": "keys", "keys": "i4c", "synth": "i23", "duration": 4 }
 	},
 	"synths": {
@@ -38,7 +39,7 @@
 	"tracks": {
 		"i3": { "order": 0 },
 		"i4": { "order": 1 },
-		"i5": { "order": 2 },
+		"i5": { "order": 2, "toggle": false },
 		"i6": { "order": 3 },
 		"i7": { "order": 4 },
 		"i8": { "order": 5 },
@@ -60,26 +61,37 @@
 	},
 	"blocks": {
 		"0": { "pattern": "i26", "track": "i3", "when": 0, "duration": 3.75, "durationEdited": true },
-		"1": { "pattern": "i1", "track": "i4", "when": 4, "duration": 4 },
-		"2": { "pattern": "i26", "track": "i3", "when": 4, "duration": 3.75, "durationEdited": true },
-		"3": { "pattern": "i35", "track": "i5", "when": 4, "duration": 4 },
+		"1": { "pattern": "i35", "track": "i6", "when": 4, "duration": 4 },
+		"2": { "pattern": "i1", "track": "i4", "when": 4, "duration": 4 },
+		"3": { "pattern": "i26", "track": "i3", "when": 4, "duration": 3.75, "durationEdited": true },
 		"4": { "pattern": "i26", "track": "i3", "when": 8, "duration": 4, "durationEdited": true },
-		"5": { "pattern": "i35", "track": "i5", "when": 8, "duration": 4 },
+		"5": { "pattern": "i35", "track": "i6", "when": 8, "duration": 4 },
 		"6": { "pattern": "i1", "track": "i4", "when": 8, "duration": 3.5, "durationEdited": true },
 		"7": { "pattern": "i1", "track": "i4", "when": 12, "duration": 4, "durationEdited": true },
-		"8": { "pattern": "i35", "track": "i5", "when": 12, "duration": 4 },
+		"8": { "pattern": "i35", "track": "i6", "when": 12, "duration": 4 },
 		"9": { "pattern": "i26", "track": "i3", "when": 12, "duration": 3.75, "durationEdited": true },
-		"10": { "pattern": "i1", "track": "i4", "when": 16, "duration": 3, "durationEdited": true },
-		"11": { "pattern": "i35", "track": "i5", "when": 16, "duration": 4 },
-		"12": { "pattern": "i4d", "track": "i3", "when": 16, "duration": 4 }
+		"10": { "pattern": "i1", "track": "i4", "when": 16, "duration": 3.125, "durationEdited": true },
+		"11": { "pattern": "i35", "track": "i6", "when": 16, "duration": 4 },
+		"12": { "pattern": "i4d", "track": "i3", "when": 16, "duration": 4 },
+		"13": { "pattern": "1", "duration": 4, "when": 4, "track": "i5" },
+		"14": { "pattern": "1", "duration": 3.5, "durationEdited": true, "when": 8, "track": "i5" },
+		"15": { "pattern": "1", "duration": 4, "when": 12, "track": "i5" },
+		"16": { "pattern": "1", "duration": 3.125, "durationEdited": true, "when": 16, "track": "i5" }
 	},
 	"keys": {
-		"i2": {
+		"1": {
 			"0": { "key": 24, "when": 0, "duration": 0.75, "pan": 0, "gain": 0.8 },
 			"1": { "key": 21, "when": 0.75, "duration": 0.75, "pan": 0, "gain": 0.8 },
 			"2": { "key": 25, "when": 1.5, "duration": 0.75, "pan": 0, "gain": 0.8 },
 			"3": { "key": 21, "when": 2.25, "duration": 0.75, "pan": 0, "gain": 0.8 },
 			"4": { "key": 24, "when": 3, "duration": 1, "pan": 0, "gain": 0.8 }
+		},
+		"i2": {
+			"0": { "key": 24, "when": 0, "duration": 0.6875, "pan": 0, "gain": 0.8, "next": 1 },
+			"1": { "key": 21, "when": 0.75, "duration": 0.6875, "pan": 0, "gain": 0.8, "prev": 0, "next": 2 },
+			"2": { "key": 25, "when": 1.5, "duration": 0.6875, "pan": 0, "gain": 0.8, "prev": 1, "next": 3 },
+			"3": { "key": 21, "when": 2.25, "duration": 0.6875, "pan": 0, "gain": 0.8, "prev": 2, "next": 4 },
+			"4": { "key": 24, "when": 3, "duration": 1, "pan": 0, "gain": 0.8, "prev": 3 }
 		},
 		"i25": {
 			"0": { "key": 60, "when": 0, "duration": 0.25, "pan": 0, "gain": 0.8 },
@@ -104,18 +116,18 @@
 			"0": { "key": 60, "when": 0, "duration": 0.25, "pan": 0, "gain": 0.8 },
 			"1": { "key": 60, "when": 0.5, "duration": 0.25, "pan": 0, "gain": 0.8 },
 			"2": { "key": 57, "when": 0.75, "duration": 0.25, "pan": 0, "gain": 0.8 },
-			"3": { "key": 57, "when": 1.25, "duration": 0.25, "pan": 0, "gain": 0.8 },
-			"4": { "key": 61, "when": 1.5, "duration": 0.25, "pan": 0, "gain": 0.8 },
-			"5": { "key": 61, "when": 2, "duration": 0.25, "pan": 0, "gain": 0.8 },
-			"6": { "key": 57, "when": 2.25, "duration": 0.25, "pan": 0, "gain": 0.8 },
-			"7": { "key": 57, "when": 2.75, "duration": 0.25, "pan": 0, "gain": 0.8 },
-			"8": { "key": 60, "when": 3, "duration": 0.25, "pan": 0, "gain": 0.8 },
-			"9": { "key": 63, "when": 3.5, "duration": 0.5, "pan": 0, "gain": 0.8 }
+			"4": { "key": 57, "when": 1.25, "duration": 0.25, "pan": 0, "gain": 0.8 },
+			"6": { "key": 61, "when": 1.5, "duration": 0.25, "pan": 0, "gain": 0.8 },
+			"7": { "key": 61, "when": 2, "duration": 0.25, "pan": 0, "gain": 0.8 },
+			"8": { "key": 57, "when": 2.25, "duration": 0.25, "pan": 0, "gain": 0.8 },
+			"9": { "key": 57, "when": 2.75, "duration": 0.25, "pan": 0, "gain": 0.8 },
+			"10": { "key": 60, "when": 3, "duration": 0.25, "pan": 0, "gain": 0.8 },
+			"11": { "key": 63, "when": 3.5, "duration": 0.5, "pan": 0, "gain": 0.8 }
 		}
 	},
-	"patternOpened": "i4d",
-	"synthOpened": "i23",
-	"savedAt": 1534018717,
+	"patternOpened": "i35",
+	"synthOpened": "i32",
+	"savedAt": 1541988540,
 	"loopA": 4,
 	"loopB": 20
 }
