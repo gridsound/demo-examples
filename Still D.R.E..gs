@@ -107,16 +107,16 @@
 		"i1e": {
 			"0": { "key": 33, "pan": 0, "gain": 0.82, "duration": 1, "when": 0 },
 			"1": { "key": 21, "pan": 0, "gain": 0.77, "duration": 1, "when": 0 },
-			"2": { "key": 35, "pan": 0, "gain": 0.76, "duration": 1.0625, "when": 2.96875 },
-			"3": { "key": 23, "pan": 0, "gain": 0.77, "duration": 1, "when": 3 },
-			"4": { "key": 28, "pan": 0, "gain": 0.77, "duration": 1, "when": 4 },
-			"5": { "key": 16, "pan": 0, "gain": 0.77, "duration": 1, "when": 4 },
+			"2": { "key": 35, "pan": 0, "gain": 0.76, "duration": 0.9375, "when": 2.96875, "next": 4 },
+			"3": { "key": 23, "pan": 0, "gain": 0.77, "duration": 0.90625, "when": 3, "next": 5 },
+			"4": { "key": 28, "pan": 0, "gain": 0.77, "duration": 1, "when": 4, "prev": 2 },
+			"5": { "key": 16, "pan": 0, "gain": 0.77, "duration": 1, "when": 4, "prev": 3 },
 			"6": { "key": 28, "pan": 0, "gain": 0.79, "duration": 1.03125, "when": 6.96875 },
 			"7": { "key": 16, "pan": 0, "gain": 0.77, "duration": 1, "when": 7 }
 		}
 	},
 	"synthOpened": "i1b",
-	"savedAt": 1534026524,
+	"savedAt": 1541989086,
 	"loopA": 4,
 	"loopB": 12,
 	"patternOpened": "i1f"
