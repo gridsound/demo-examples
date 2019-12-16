@@ -1,19 +1,60 @@
 {
 	"id": "fcb4c1fb-8c1c-49f7-a8c7-cd0b3819461e",
 	"bpm": 150,
-	"stepsPerBeat": 4,
-	"beatsPerMeasure": 4,
+	"keys": {
+		"1": {
+			"0": { "key": 60, "pan": 0.04, "gain": 0.96, "when": 0, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"1": { "key": 60, "pan": -0.12, "gain": 0.75, "when": 0.25, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"2": { "key": 60, "pan": -0.29, "gain": 0.46, "when": 0.5, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"3": { "key": 60, "pan": -0.45, "gain": 0.26, "next": "4", "when": 0.75, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"4": { "key": 63, "pan": 0.49, "gain": 0.98, "prev": "3", "when": 1, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"5": { "key": 63, "pan": 0.51, "gain": 0.79, "next": "6", "when": 1.25, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"6": { "key": 60, "pan": -0.49, "gain": 0.47, "prev": "5", "when": 1.5, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"7": { "key": 60, "pan": -0.29, "gain": 0.55, "when": 1.75, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"10": { "key": 60, "pan": 0.18, "gain": 0.44, "when": 2.5, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"11": { "key": 60, "pan": 0.51, "gain": 0.59, "next": "12", "when": 2.75, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"12": { "key": 63, "pan": -0.41, "gain": 0.98, "prev": "11", "when": 3, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"14": { "key": 60, "pan": 0, "gain": 0.66, "next": "20", "when": 3.5, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.03125, "highpass": 1 },
+			"19": { "key": 63, "pan": 0.02, "gain": 0.66, "when": 2, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.25, "highpass": 1 },
+			"20": { "key": 60, "pan": 0, "gain": 0.8, "prev": "14", "when": 3.875, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.03125, "highpass": 1 }
+		},
+		"i2": {
+			"0": { "key": 60, "pan": 0.04, "gain": 0.96, "when": 0, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 0.3 },
+			"1": { "key": 60, "pan": -0.12, "gain": 0.75, "when": 0.25, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 0.44 },
+			"2": { "key": 60, "pan": -0.29, "gain": 0.46, "when": 0.5, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 0.71 },
+			"3": { "key": 60, "pan": -0.45, "gain": 0.26, "next": "4", "when": 0.75, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 0.87 },
+			"4": { "key": 63, "pan": 0.49, "gain": 0.98, "prev": "3", "when": 1, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 0.98 },
+			"5": { "key": 63, "pan": 0.51, "gain": 0.79, "next": "6", "when": 1.25, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"6": { "key": 60, "pan": -0.49, "gain": 0.47, "prev": "5", "when": 1.5, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.125, "highpass": 1 },
+			"7": { "key": 60, "pan": -0.29, "gain": 0.55, "when": 1.75, "attack": 0, "lowpass": 0.88, "release": 0, "duration": 0.125, "highpass": 1 },
+			"10": { "key": 60, "pan": 0.18, "gain": 0.44, "when": 2.5, "attack": 0, "lowpass": 0.27, "release": 0, "duration": 0.125, "highpass": 1 },
+			"11": { "key": 60, "pan": 0.51, "gain": 0.59, "next": "12", "when": 2.75, "attack": 0, "lowpass": 0.19, "release": 0, "duration": 0.125, "highpass": 1 },
+			"12": { "key": 63, "pan": -0.41, "gain": 0.98, "prev": "11", "when": 3, "attack": 0, "lowpass": 0.14, "release": 0, "duration": 0.125, "highpass": 1 },
+			"14": { "key": 60, "pan": 0, "gain": 0.66, "next": "20", "when": 3.5, "attack": 0, "lowpass": 0.11, "release": 0, "duration": 0.03125, "highpass": 1 },
+			"19": { "key": 63, "pan": 0.02, "gain": 0.66, "when": 2, "attack": 0, "lowpass": 0.47, "release": 0, "duration": 0.25, "highpass": 1 },
+			"20": { "key": 60, "pan": 0, "gain": 0.8, "prev": "14", "when": 3.875, "attack": 0, "lowpass": 1, "release": 0, "duration": 0.03125, "highpass": 1 }
+		}
+	},
 	"name": "key.gain/pan (test)",
-	"duration": 16,
-	"patterns": {
-		"i1": { "name": "pat", "type": "keys", "keys": "i2", "synth": "i0", "duration": 4 }
+	"blocks": {
+		"0": { "when": 0, "track": "i5", "pattern": "1", "duration": 4 },
+		"1": { "when": 4, "track": "i5", "pattern": "i1", "duration": 4 }
 	},
 	"synths": {
 		"i0": {
+			"lfo": {
+				"amp": 1,
+				"type": "sine",
+				"delay": 0,
+				"speed": 1,
+				"attack": 1,
+				"toggle": false
+			},
+			"dest": "main",
 			"name": "synth",
 			"oscillators": {
-				"i18": { "order": 0, "type": "triangle", "detune": 20, "pan": 0, "gain": 0.58 },
-				"i19": { "type": "square", "gain": 0.12, "pan": 0, "detune": -20, "order": 1 }
+				"i18": { "pan": 0, "gain": 0.58, "type": "triangle", "order": 0, "detune": 0 },
+				"i19": { "pan": 0, "gain": 0.23, "type": "square", "order": 1, "detune": -24 }
 			}
 		}
 	},
@@ -40,33 +81,24 @@
 		"i16": { "order": 19 },
 		"i17": { "order": 20 }
 	},
-	"blocks": {
-		"0": { "pattern": "i1", "duration": 4, "when": 0, "track": "i4" },
-		"1": { "pattern": "i1", "duration": 4, "when": 4, "track": "i4" },
-		"2": { "pattern": "i1", "duration": 4, "when": 8, "track": "i4" },
-		"3": { "pattern": "i1", "duration": 4, "when": 12, "track": "i4" }
+	"buffers": {},
+	"effects": {},
+	"savedAt": 1576462195,
+	"channels": {
+		"1": { "pan": 0, "dest": "main", "gain": 1, "name": "chan 1", "order": 1, "toggle": true },
+		"2": { "pan": 0, "dest": "main", "gain": 1, "name": "chan 2", "order": 2, "toggle": true },
+		"3": { "pan": 0, "dest": "main", "gain": 1, "name": "chan 3", "order": 3, "toggle": true },
+		"4": { "pan": 0, "dest": "main", "gain": 1, "name": "chan 4", "order": 4, "toggle": true },
+		"main": { "pan": 0, "gain": 0.438, "name": "main", "toggle": true }
 	},
-	"keys": {
-		"i2": {
-			"0": { "key": 60, "pan": 0.24, "gain": 0.96, "duration": 0.125, "when": 0 },
-			"1": { "key": 60, "pan": 0.8, "gain": 0.75, "duration": 0.125, "when": 0.25 },
-			"2": { "key": 60, "pan": 0.96, "gain": 0.46, "duration": 0.125, "when": 0.5 },
-			"3": { "key": 60, "pan": 0.47, "gain": 0.26, "duration": 0.125, "when": 0.75 },
-			"4": { "key": 60, "pan": -0.39, "gain": 0.98, "duration": 0.125, "when": 1 },
-			"5": { "key": 60, "pan": -0.84, "gain": 0.79, "duration": 0.125, "when": 1.25 },
-			"6": { "key": 60, "pan": -0.92, "gain": 0.47, "duration": 0.125, "when": 1.5 },
-			"7": { "key": 60, "pan": -0.65, "gain": 0.19, "duration": 0.125, "when": 1.75 },
-			"8": { "key": 60, "pan": 0.2, "gain": 0.97, "duration": 0.125, "when": 2 },
-			"9": { "key": 60, "pan": 0.8, "gain": 0.8, "duration": 0.125, "when": 2.25 },
-			"10": { "key": 60, "pan": 0.96, "gain": 0.44, "duration": 0.125, "when": 2.5 },
-			"11": { "key": 60, "pan": 0.61, "gain": 0.15, "duration": 0.125, "when": 2.75 },
-			"12": { "key": 60, "pan": -0.22, "gain": 0.98, "duration": 0.125, "when": 3 },
-			"13": { "key": 60, "pan": -0.73, "gain": 0.77, "duration": 0.125, "when": 3.25 },
-			"14": { "key": 60, "pan": -0.88, "gain": 0.45, "duration": 0.125, "when": 3.5 },
-			"15": { "key": 60, "pan": -0.43, "gain": 0.14, "duration": 0.125, "when": 3.75 }
-		}
+	"duration": 8,
+	"patterns": {
+		"1": { "keys": "1", "name": "pat", "type": "keys", "order": 0, "synth": "i0", "duration": 4 },
+		"i1": { "keys": "i2", "name": "pat filtered", "type": "keys", "order": 1, "synth": "i0", "duration": 4 }
 	},
 	"synthOpened": "i0",
-	"patternOpened": "i1",
-	"savedAt": 1532906842
+	"stepsPerBeat": 4,
+	"beatsPerMeasure": 4,
+	"patternKeysOpened": "i1",
+	"patternBufferOpened": null
 }
